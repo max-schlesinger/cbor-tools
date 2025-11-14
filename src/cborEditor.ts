@@ -393,7 +393,7 @@ export class CborEditorProvider implements vscode.CustomEditorProvider<CborDocum
 				<title>Paw Draw</title>
 			</head>
 			<body>
-				<pre class="edn-preview"></pre>
+				<textarea class="edn-preview"></textarea>
 				<script nonce="${nonce}" src="${scriptUri}"></script>
 			</body>
 			</html>`;
